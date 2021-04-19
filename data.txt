@@ -1,0 +1,2 @@
+database = portafolio_app_db
+user = portafolio_app_user
