@@ -92,7 +92,8 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  /* font: inherit; */
+  font-family: Arial, sans-serif;
   vertical-align: baseline;
 }
 
@@ -1817,4 +1818,62 @@ body.is-preload #footer {
 h2.major {
   margin: 0;
   padding: 0;
+}
+
+#elements > h2 {
+  align-self: center;
+  text-align: center;
+  /* background-color: red; */
+}
+
+#elements {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+  /* text-align: center; */
+  border: none;
+}
+
+#elements > h5 > a,
+#elements > h2 > a {
+  border-bottom: none;
+}
+#elements > h5 {
+  text-align: center;
+}
+
+p.experience {
+  margin: 0;
+
+  /* width: max-content;
+  border-bottom: solid 1px #ffffff; */
+}
+div.date {
+  font-size: 12px;
+}
+#elements > h5 > a:hover,
+#elements > div > a:hover,
+#elements > p > a:hover,
+#elements > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+#elements > div {
+  text-align: right;
+  border-bottom: none;
+}
+#elements > div > a,
+#elements > p > a,
+#elements > ul > li > a {
+  border-bottom: none;
+}
+
+#elements > h4 {
+  text-align: left;
+}
+
+p.education {
+  font-size: 12px;
+  margin: 0;
 }
