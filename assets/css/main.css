@@ -1820,13 +1820,13 @@ h2.major {
   padding: 0;
 }
 
-#elements > h2 {
+#resume > h2 {
   align-self: center;
   text-align: center;
   /* background-color: red; */
 }
 
-#elements {
+#resume {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -1835,11 +1835,11 @@ h2.major {
   border: none;
 }
 
-#elements > h5 > a,
-#elements > h2 > a {
+#resume > h5 > a,
+#resume > h2 > a {
   border-bottom: none;
 }
-#elements > h5 {
+#resume > h5 {
   text-align: center;
 }
 
@@ -1852,24 +1852,24 @@ p.experience {
 div.date {
   font-size: 12px;
 }
-#elements > h5 > a:hover,
-#elements > div > a:hover,
-#elements > p > a:hover,
-#elements > ul > li > a:hover {
+#resume > h5 > a:hover,
+#resume > div > a:hover,
+#resume > p > a:hover,
+#resume > ul > li > a:hover {
   text-decoration: underline;
 }
 
-#elements > div {
+#resume > div {
   text-align: right;
   border-bottom: none;
 }
-#elements > div > a,
-#elements > p > a,
-#elements > ul > li > a {
+#resume > div > a,
+#resume > p > a,
+#resume > ul > li > a {
   border-bottom: none;
 }
 
-#elements > h4 {
+#resume > h4 {
   text-align: left;
 }
 
